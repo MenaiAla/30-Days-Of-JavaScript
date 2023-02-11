@@ -600,17 +600,17 @@ const products = [
 ### Exercises: Level 2
 
 1. Find the total price of products by chaining two or more array iterators(eg. arr.map(callback).filter(callback).reduce(callback))
-1. Find the sum of price of products using only reduce reduce(callback))
-1. Declare a function called **_categorizeCountries_** which returns an array of countries which have some common pattern(you find the countries array in this repository as countries.js(eg 'land', 'ia', 'island','stan')).
-1. Create a function which return an array of objects, which is the letter and the number of times the letter use to start with a name of a country.
-1. Declare a **_getFirstTenCountries_** function and return an array of ten countries. Use different functional programming to work on the countries.js array
-1. Declare a **_getLastTenCountries_** function which which returns the last ten countries in the countries array.
-1. Find out which _letter_ is used many _times_ as initial for a country name from the countries array (eg. Finland, Fiji, France etc)
+2. Find the sum of price of products using only reduce reduce(callback))
+3. Declare a function called **_categorizeCountries_** which returns an array of countries which have some common pattern(you find the countries array in this repository as countries.js(eg 'land', 'ia', 'island','stan')).
+4. Write a function that returns an array of objects containing the letter and the number of times the letter occurs in a country's name.
+5. Declare a **_getFirstTenCountries_** function and return an array of ten countries. Use different functional programming to work on the countries.js array
+6. Declare a **_getLastTenCountries_** function which which returns the last ten countries in the countries array.
+7. Find out which _letter_ is used many _times_ as initial for a country name from the countries array (eg. Finland, Fiji, France etc)
 
 ### Exercises: Level 3
 
 1. Use the countries information, in the data folder. Sort countries by name, by capital, by population
-1. \*\*\* Find the 10 most spoken languages:
+2. \*\*\* Find the 10 most spoken languages:
 
    ````js
    // Your output should look like this
@@ -638,7 +638,7 @@ const products = [
 
    ````
 
-2. \*\*\* Use countries_data.js file create a function which create the ten most populated countries
+3. \*\*\* Use countries_data.js file create a function which create the ten most populated countries
 
    ````js
    console.log(mostPopulatedCountries(countries, 10))
@@ -666,7 +666,7 @@ const products = [
 
    ````
 
-3. \*\*\* Try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create an object called statistics and create all the functions which do statistical calculations as method for the statistics object. Check the output below.
+4. \*\*\* Try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create an object called statistics and create all the functions which do statistical calculations as method for the statistics object. Check the output below.
 
    ```js
    const ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
